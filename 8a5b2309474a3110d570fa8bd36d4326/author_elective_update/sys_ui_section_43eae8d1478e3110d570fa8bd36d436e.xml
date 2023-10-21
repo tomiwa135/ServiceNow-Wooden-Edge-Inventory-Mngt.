@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="New Section" section_id="43eae8d1478e3110d570fa8bd36d436e" sys_domain="global" table="x_1020730_wooden_e_wooden_edge_inventory_mngt" version="3" view="">
+        <sys_ui_section action="DELETE">
+            <caption>New Section</caption>
+            <header>false</header>
+            <name>x_1020730_wooden_e_wooden_edge_inventory_mngt</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>badmantomiwa</sys_created_by>
+            <sys_created_on>2023-10-21 18:42:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>43eae8d1478e3110d570fa8bd36d436e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1020730_wooden_e_wooden_edge_inventory_mngt</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Wooden Edge Inventory Mngt. App" source="x_1020730_wooden_e">8a5b2309474a3110d570fa8bd36d4326</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Wooden Edge Inventory Mngt. App">8a5b2309474a3110d570fa8bd36d4326</sys_scope>
+            <sys_update_name>sys_ui_section_43eae8d1478e3110d570fa8bd36d436e</sys_update_name>
+            <sys_updated_by>badmantomiwa</sys_updated_by>
+            <sys_updated_on>2023-10-21 18:42:03</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Wooden Edge Inventory Mngt. App">8a5b2309474a3110d570fa8bd36d4326</application>
+        <file_path/>
+        <instance_id>0b0de3d0dbd43bc00ae3ac44d4961932</instance_id>
+        <instance_name>dev75340</instance_name>
+        <name>sys_ui_section_43eae8d1478e3110d570fa8bd36d436e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="New Section" section_id="43eae8d1478e3110d570fa8bd36d436e" sys_domain="global" table="x_1020730_wooden_e_wooden_edge_inventory_mngt" version="3" view=""><sys_ui_section action="INSERT_OR_UPDATE"><caption>New Section</caption><header>false</header><name>x_1020730_wooden_e_wooden_edge_inventory_mngt</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>badmantomiwa</sys_created_by><sys_created_on>2023-10-21 18:42:03</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>43eae8d1478e3110d570fa8bd36d436e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1020730_wooden_e_wooden_edge_inventory_mngt</sys_name><sys_overrides/><sys_package display_value="Wooden Edge Inventory Mngt. App" source="x_1020730_wooden_e">8a5b2309474a3110d570fa8bd36d4326</sys_package><sys_policy/><sys_scope display_value="Wooden Edge Inventory Mngt. App">8a5b2309474a3110d570fa8bd36d4326</sys_scope><sys_update_name>sys_ui_section_43eae8d1478e3110d570fa8bd36d436e</sys_update_name><sys_updated_by>badmantomiwa</sys_updated_by><sys_updated_on>2023-10-21 18:42:03</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>2054871126</payload_hash>
+        <record_name>Wooden Edge Inventory Mngt.</record_name>
+        <reverted_from/>
+        <source>ca5b2309474a3110d570fa8bd36d4328</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>badmantomiwa</sys_created_by>
+        <sys_created_on>2023-10-21 18:42:32</sys_created_on>
+        <sys_id>c60b6cd1478e3110d570fa8bd36d437d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b538bc9f50000001</sys_recorded_at>
+        <sys_updated_by>badmantomiwa</sys_updated_by>
+        <sys_updated_on>2023-10-21 18:42:32</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>860b6cd1f38e31101f60838944b7477d</update_guid>
+        <update_guid_history>860b6cd1f38e31101f60838944b7477d:2054871126</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>badmantomiwa</sys_created_by>
+        <sys_created_on>2023-10-21 18:42:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>28c0ed0deffb4ea0874c107b2a783900</sys_id>
+        <sys_metadata>43eae8d1478e3110d570fa8bd36d436e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Section</sys_name>
+        <sys_package display_value="Wooden Edge Inventory Mngt. App" source="x_1020730_wooden_e">8a5b2309474a3110d570fa8bd36d4326</sys_package>
+        <sys_parent display_value="Wooden Edge Inventory Mngt.">fadda7cd474a3110d570fa8bd36d4335</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Wooden Edge Inventory Mngt. App">8a5b2309474a3110d570fa8bd36d4326</sys_scope>
+        <sys_scope_delete display_value="">21728bb4a8bc461ea4baa282151316c1</sys_scope_delete>
+        <sys_update_name>sys_ui_section_43eae8d1478e3110d570fa8bd36d436e</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_43eae8d1478e3110d570fa8bd36d436e">c60b6cd1478e3110d570fa8bd36d437d</sys_update_version>
+        <sys_updated_by>badmantomiwa</sys_updated_by>
+        <sys_updated_on>2023-10-21 18:42:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
