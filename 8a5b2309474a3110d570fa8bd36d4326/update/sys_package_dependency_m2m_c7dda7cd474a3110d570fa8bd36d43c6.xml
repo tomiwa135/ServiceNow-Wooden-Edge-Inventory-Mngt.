@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Task table schema" source="com.glide.task">9a5a170bb4232110320f8dc279c804ea</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>badmantomiwa</sys_created_by>
+        <sys_created_on>2023-10-21 14:15:15</sys_created_on>
+        <sys_id>c7dda7cd474a3110d570fa8bd36d43c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Wooden Edge Inventory Mngt. App" source="x_1020730_wooden_e">8a5b2309474a3110d570fa8bd36d4326</sys_package>
+        <sys_updated_by>badmantomiwa</sys_updated_by>
+        <sys_updated_on>2023-10-21 14:15:15</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

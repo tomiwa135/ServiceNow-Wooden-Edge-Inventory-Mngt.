@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="fadda7cd474a3110d570fa8bd36d4335" extends="task" label="Wooden Edge Inventory Mngt." max_length="40" name="x_1020730_wooden_e_wooden_edge_inventory_mngt" type="collection"/>
+</database>

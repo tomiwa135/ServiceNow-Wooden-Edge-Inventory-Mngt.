@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <role display_value="x_1020730_wooden_e.inventory_manager" name="x_1020730_wooden_e.inventory_manager">3ccb6fc9474a3110d570fa8bd36d43e2</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>badmantomiwa</sys_created_by>
+        <sys_created_on>2023-10-21 14:06:06</sys_created_on>
+        <sys_id>3ccb6fc9474a3110d570fa8bd36d43e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>3ccb6fc9474a3110d570fa8bd36d43e2</sys_name>
+        <sys_package display_value="Wooden Edge Inventory Mngt. App" source="x_1020730_wooden_e">8a5b2309474a3110d570fa8bd36d4326</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wooden Edge Inventory Mngt. App">8a5b2309474a3110d570fa8bd36d4326</sys_scope>
+        <sys_update_name>sys_embedded_help_role_3ccb6fc9474a3110d570fa8bd36d43e5</sys_update_name>
+        <sys_updated_by>badmantomiwa</sys_updated_by>
+        <sys_updated_on>2023-10-21 14:06:06</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
