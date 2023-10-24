@@ -6,7 +6,7 @@
         <action_insert>true</action_insert>
         <action_query>false</action_query>
         <action_update>true</action_update>
-        <active>false</active>
+        <active>true</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
@@ -17,8 +17,8 @@
         <execute_function>false</execute_function>
         <filter_condition/>
         <is_rest>false</is_rest>
-        <message><![CDATA[<p><span style="color: #e03e2d;">Date of purchase cannot be in the past!</span></p>]]></message>
-        <name>Date of purchae can't be in the past</name>
+        <message/>
+        <name>Email Address Syntax validate</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -27,44 +27,33 @@
         <rest_service_text/>
         <rest_variables/>
         <role_conditions/>
-        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
-    // Add your code here
-    var rightnow = new GlideDateTime();
-
-    var purchaseDate = new GlideDateTime(current.u_date_of_purchase);
-
-    if (purchaseDate.before(rightnow)) {
-        gs.addErrorMessage("Purchase date of " + purchaseDate + " cannot be in the past");
-        current.setAbortAction(true);
-    }
-
-    var today = rightnow.getLocalDate();
-    var isToday = purchaseDate.getLocalDate();
-
-    if (today.compareTo(istoday) == 0) {
-        gs.addErrorMessage("You cannot submit Order requests for today. Please place a request for the future");
-        current.setAbortAction(true);
-    }
-
+	// Add your code here
+	var isEmail = validateEmailAddress(current.u_requested_for_email);
+	
+	if(isEmail == false){
+		gs.addErrorMessage(current.u_requested_for_email + " is not a valid email address. You must provide a valid email address");
+		current.setAbortAction(true);
+	}
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>badmantomiwa</sys_created_by>
-        <sys_created_on>2023-10-24 10:24:28</sys_created_on>
+        <sys_created_on>2023-10-24 19:37:53</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>515452ca478a3510d570fa8bd36d4321</sys_id>
-        <sys_mod_count>10</sys_mod_count>
-        <sys_name>Date of purchae can't be in the past</sys_name>
+        <sys_id>8744989a47c27510d570fa8bd36d436e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Email Address Syntax validate</sys_name>
         <sys_overrides/>
         <sys_package display_value="Wooden Edge Inventory Mngt. App" source="x_1020730_wooden_e">8a5b2309474a3110d570fa8bd36d4326</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wooden Edge Inventory Mngt. App">8a5b2309474a3110d570fa8bd36d4326</sys_scope>
-        <sys_update_name>sys_script_515452ca478a3510d570fa8bd36d4321</sys_update_name>
+        <sys_update_name>sys_script_8744989a47c27510d570fa8bd36d436e</sys_update_name>
         <sys_updated_by>badmantomiwa</sys_updated_by>
-        <sys_updated_on>2023-10-24 21:31:05</sys_updated_on>
+        <sys_updated_on>2023-10-24 19:52:58</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
-    <sys_translated_text action="delete_multiple" query="documentkey=515452ca478a3510d570fa8bd36d4321"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=8744989a47c27510d570fa8bd36d436e"/>
 </record_update>

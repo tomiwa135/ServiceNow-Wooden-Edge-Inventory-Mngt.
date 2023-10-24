@@ -6,7 +6,7 @@
         <action_insert>true</action_insert>
         <action_query>false</action_query>
         <action_update>true</action_update>
-        <active>false</active>
+        <active>true</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
@@ -17,8 +17,8 @@
         <execute_function>false</execute_function>
         <filter_condition/>
         <is_rest>false</is_rest>
-        <message><![CDATA[<p><span style="color: #e03e2d;">Date of purchase cannot be in the past!</span></p>]]></message>
-        <name>Date of purchae can't be in the past</name>
+        <message/>
+        <name>Wooden Edge Date of Purchase- Script Inc</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -30,41 +30,37 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
 
     // Add your code here
-    var rightnow = new GlideDateTime();
+    var woodenedgeutils = new WoodenEdgeStudiosUtils();
+    var isPast = woodenedgeutils.isDatePast(current.u_date_of_purchase);
+	var today = woodenedgeutils.isDateToday(current.u_date_of_purchase);
 
-    var purchaseDate = new GlideDateTime(current.u_date_of_purchase);
-
-    if (purchaseDate.before(rightnow)) {
-        gs.addErrorMessage("Purchase date of " + purchaseDate + " cannot be in the past");
+    if (isPast == true) {
+        gs.addErrorMessage("Purchase date of cannot be in the past");
         current.setAbortAction(true);
     }
-
-    var today = rightnow.getLocalDate();
-    var isToday = purchaseDate.getLocalDate();
-
-    if (today.compareTo(istoday) == 0) {
-        gs.addErrorMessage("You cannot submit Order requests for today. Please place a request for the future");
+	
+	if (today == true) {
+		gs.addErrorMessage("Purchase date of cannot be today as it takes time to go through approvals");
         current.setAbortAction(true);
-    }
-
+	}
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>badmantomiwa</sys_created_by>
-        <sys_created_on>2023-10-24 10:24:28</sys_created_on>
+        <sys_created_on>2023-10-24 21:07:46</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>515452ca478a3510d570fa8bd36d4321</sys_id>
-        <sys_mod_count>10</sys_mod_count>
-        <sys_name>Date of purchae can't be in the past</sys_name>
+        <sys_id>0428a05247467510d570fa8bd36d43fd</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Wooden Edge Date of Purchase- Script Inc</sys_name>
         <sys_overrides/>
         <sys_package display_value="Wooden Edge Inventory Mngt. App" source="x_1020730_wooden_e">8a5b2309474a3110d570fa8bd36d4326</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wooden Edge Inventory Mngt. App">8a5b2309474a3110d570fa8bd36d4326</sys_scope>
-        <sys_update_name>sys_script_515452ca478a3510d570fa8bd36d4321</sys_update_name>
+        <sys_update_name>sys_script_0428a05247467510d570fa8bd36d43fd</sys_update_name>
         <sys_updated_by>badmantomiwa</sys_updated_by>
-        <sys_updated_on>2023-10-24 21:31:05</sys_updated_on>
+        <sys_updated_on>2023-10-24 21:37:24</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
-    <sys_translated_text action="delete_multiple" query="documentkey=515452ca478a3510d570fa8bd36d4321"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=0428a05247467510d570fa8bd36d43fd"/>
 </record_update>

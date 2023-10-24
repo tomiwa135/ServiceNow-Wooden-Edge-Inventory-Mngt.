@@ -26,6 +26,7 @@
         <element attributes="edge_encryption_enabled=true" label="Purchase date" mandatory="true" max_length="40" name="u_purchase_date" type="glide_date"/>
         <element label="Reorder quantity" max_length="40" name="u_reorder_quantity" type="integer"/>
         <element attributes="encode_utf8=false" label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Requested for email" mandatory="true" max_length="40" name="u_requested_for_email" type="string"/>
         <element attributes="encode_utf8=false" label="Requesting dept" mandatory="true" max_length="32" name="u_requesting_dept" reference="sys_user_group" type="reference"/>
         <element label="Stock quantity" max_length="40" name="u_stock_quantity" type="integer"/>
         <element choice="3" default="2" label="Supplier" mandatory="true" max_length="40" name="u_supplier" type="integer">
