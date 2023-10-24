@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="fadda7cd474a3110d570fa8bd36d4335" extends="task" label="Wooden Edge Inventory Mngt." max_length="40" name="x_1020730_wooden_e_wooden_edge_inventory_mngt" type="collection">
-        <element choice="3" default="10" label="Condition" max_length="40" name="u_condition" type="integer">
+        <element choice="3" default="50" label="Condition" max_length="40" name="u_condition" type="integer">
             <choice>
                 <element inactive_on_update="false" label="New" sequence="0" value="10"/>
                 <element inactive_on_update="false" label="Fairly Used" sequence="1" value="30"/>
@@ -8,12 +8,14 @@
                 <element inactive_on_update="false" label="Damaged" sequence="3" value="70"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="Date of purchase" mandatory="true" max_length="40" name="u_date_of_purchase" type="glide_date_time"/>
         <element choice="3" default="20" label="Item category" mandatory="true" max_length="40" name="u_item_category" type="integer">
             <choice>
                 <element inactive_on_update="false" label="Heavy Machinery" sequence="0" value="20"/>
                 <element inactive_on_update="false" label="Light Machinery" sequence="1" value="40"/>
                 <element inactive_on_update="false" label="Finishes" sequence="2" value="60"/>
                 <element inactive_on_update="false" label="Fasteners" sequence="3" value="80"/>
+                <element inactive_on_update="false" label="Office" sequence="4" value="90"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Item name" mandatory="true" max_length="40" name="u_item_name" type="string"/>
@@ -24,6 +26,7 @@
         <element attributes="edge_encryption_enabled=true" label="Purchase date" mandatory="true" max_length="40" name="u_purchase_date" type="glide_date"/>
         <element label="Reorder quantity" max_length="40" name="u_reorder_quantity" type="integer"/>
         <element attributes="encode_utf8=false" label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Requesting dept" mandatory="true" max_length="32" name="u_requesting_dept" reference="sys_user_group" type="reference"/>
         <element label="Stock quantity" max_length="40" name="u_stock_quantity" type="integer"/>
         <element choice="3" default="2" label="Supplier" mandatory="true" max_length="40" name="u_supplier" type="integer">
             <choice>

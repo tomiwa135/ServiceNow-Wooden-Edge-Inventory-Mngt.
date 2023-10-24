@@ -91,5 +91,24 @@
             <sys_updated_on>2023-10-21 18:42:04</sys_updated_on>
             <value>80</value>
         </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_item_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Office</label>
+            <language>en</language>
+            <name>x_1020730_wooden_e_wooden_edge_inventory_mngt</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>badmantomiwa</sys_created_by>
+            <sys_created_on>2023-10-24 03:15:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>badmantomiwa</sys_updated_by>
+            <sys_updated_on>2023-10-24 03:15:32</sys_updated_on>
+            <value>90</value>
+        </sys_choice>
     </sys_choice>
 </record_update>

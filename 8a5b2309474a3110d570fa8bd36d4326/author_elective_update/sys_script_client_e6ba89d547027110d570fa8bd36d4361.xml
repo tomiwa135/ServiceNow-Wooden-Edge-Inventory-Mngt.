@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Set Inventory Item Type</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading) {
+        return;
+    }
+
+    g_form.showFieldMsg('u_requested_for', 'This triggers a client script from the inventory management app', info);
+    g_form.setReadOnly('u_requested_for', true);
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>badmantomiwa</sys_created_by>
+        <sys_created_on>2023-10-21 21:46:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e6ba89d547027110d570fa8bd36d4361</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Set Inventory Item Type</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Wooden Edge Inventory Mngt. App" source="x_1020730_wooden_e">8a5b2309474a3110d570fa8bd36d4326</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wooden Edge Inventory Mngt. App">8a5b2309474a3110d570fa8bd36d4326</sys_scope>
+        <sys_update_name>sys_script_client_e6ba89d547027110d570fa8bd36d4361</sys_update_name>
+        <sys_updated_by>badmantomiwa</sys_updated_by>
+        <sys_updated_on>2023-10-23 23:45:17</sys_updated_on>
+        <table>x_1020730_wooden_e_wooden_edge_inventory_mngt</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Wooden Edge Inventory Mngt. App">8a5b2309474a3110d570fa8bd36d4326</application>
+        <file_path/>
+        <instance_id>0b0de3d0dbd43bc00ae3ac44d4961932</instance_id>
+        <instance_name>dev75340</instance_name>
+        <name>sys_script_client_e6ba89d547027110d570fa8bd36d4361</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Set Inventory Item Type&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading) {
+        return;
+    }
+
+    g_form.showFieldMsg('u_requested_for', 'This triggers a client script from the inventory management app', info);
+    g_form.setReadOnly('u_requested_for', true);
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;badmantomiwa&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-21 21:46:22&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;e6ba89d547027110d570fa8bd36d4361&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Set Inventory Item Type&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Wooden Edge Inventory Mngt. App" source="x_1020730_wooden_e"&gt;8a5b2309474a3110d570fa8bd36d4326&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Wooden Edge Inventory Mngt. App"&gt;8a5b2309474a3110d570fa8bd36d4326&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_e6ba89d547027110d570fa8bd36d4361&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;badmantomiwa&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-23 23:45:17&lt;/sys_updated_on&gt;&lt;table&gt;x_1020730_wooden_e_wooden_edge_inventory_mngt&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-596946656</payload_hash>
+        <record_name>Set Inventory Item Type</record_name>
+        <reverted_from/>
+        <source>58503bcd474a3110d570fa8bd36d43ee</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>badmantomiwa</sys_created_by>
+        <sys_created_on>2023-10-23 23:45:17</sys_created_on>
+        <sys_id>ec830c4647023510d570fa8bd36d4304</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b5eedb29f0000001</sys_recorded_at>
+        <sys_updated_by>badmantomiwa</sys_updated_by>
+        <sys_updated_on>2023-10-23 23:45:17</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>a4830c46ff0235109c64a9037dfea704</update_guid>
+        <update_guid_history>a4830c46ff0235109c64a9037dfea704:-596946656,4de2800a010235107261f0fad1ddb530:-88078901,cb159d99b30271106c12b916165eb177:-1456987861</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>badmantomiwa</sys_created_by>
+        <sys_created_on>2023-10-23 23:48:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>231861bece0041ecb62fe990e96aa824</sys_id>
+        <sys_metadata>e6ba89d547027110d570fa8bd36d4361</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Inventory Item Type</sys_name>
+        <sys_package display_value="Wooden Edge Inventory Mngt. App" source="x_1020730_wooden_e">8a5b2309474a3110d570fa8bd36d4326</sys_package>
+        <sys_parent display_value="Wooden Edge Inventory Mngt.">fadda7cd474a3110d570fa8bd36d4335</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Wooden Edge Inventory Mngt. App">8a5b2309474a3110d570fa8bd36d4326</sys_scope>
+        <sys_scope_delete display_value="">21728bb4a8bc461ea4baa282151316c1</sys_scope_delete>
+        <sys_update_name>sys_script_client_e6ba89d547027110d570fa8bd36d4361</sys_update_name>
+        <sys_update_version display_value="sys_script_client_e6ba89d547027110d570fa8bd36d4361">ec830c4647023510d570fa8bd36d4304</sys_update_version>
+        <sys_updated_by>badmantomiwa</sys_updated_by>
+        <sys_updated_on>2023-10-23 23:48:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
