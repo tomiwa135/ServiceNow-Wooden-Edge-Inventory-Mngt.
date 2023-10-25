@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>First Client Script to trigger a field message</description>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>New Condition Client Script</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+    //Type appropriate comment here, and begin script below
+
+    g_form.showFieldMsg('u_condition', 'This triggers a client script from the inventory management app when the condition is New and it alerts the CEO: Tomiwa Akinrotimi', 'info');
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>badmantomiwa</sys_created_by>
+        <sys_created_on>2023-10-23 23:52:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6b24c84a47023510d570fa8bd36d437a</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>New Condition Client Script</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Wooden Edge Inventory Mngt. App" source="x_1020730_wooden_e">8a5b2309474a3110d570fa8bd36d4326</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wooden Edge Inventory Mngt. App">8a5b2309474a3110d570fa8bd36d4326</sys_scope>
+        <sys_update_name>sys_script_client_6b24c84a47023510d570fa8bd36d437a</sys_update_name>
+        <sys_updated_by>badmantomiwa</sys_updated_by>
+        <sys_updated_on>2023-10-24 00:16:35</sys_updated_on>
+        <table>x_1020730_wooden_e_wooden_edge_inventory_mngt</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
