@@ -18,7 +18,7 @@
         <filter_condition/>
         <is_rest>false</is_rest>
         <message><![CDATA[<p><span style="color: #e03e2d;">Date of purchase cannot be in the past!</span></p>]]></message>
-        <name>Date of purchae can't be in the past</name>
+        <name>Date of purchase not in the past/today</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -54,15 +54,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>515452ca478a3510d570fa8bd36d4321</sys_id>
-        <sys_mod_count>10</sys_mod_count>
-        <sys_name>Date of purchae can't be in the past</sys_name>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Date of purchase not in the past/today</sys_name>
         <sys_overrides/>
         <sys_package display_value="Wooden Edge Inventory Mngt. App" source="x_1020730_wooden_e">8a5b2309474a3110d570fa8bd36d4326</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wooden Edge Inventory Mngt. App">8a5b2309474a3110d570fa8bd36d4326</sys_scope>
         <sys_update_name>sys_script_515452ca478a3510d570fa8bd36d4321</sys_update_name>
         <sys_updated_by>badmantomiwa</sys_updated_by>
-        <sys_updated_on>2023-10-24 21:31:05</sys_updated_on>
+        <sys_updated_on>2023-10-25 16:52:17</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

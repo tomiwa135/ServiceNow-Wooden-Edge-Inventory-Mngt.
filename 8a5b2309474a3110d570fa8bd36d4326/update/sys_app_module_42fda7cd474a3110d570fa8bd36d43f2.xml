@@ -17,14 +17,14 @@
         <override_menu_roles>false</override_menu_roles>
         <query>active=true^EQ</query>
         <report/>
-        <roles/>
+        <roles>x_1020730_wooden_e.admin,x_1020730_wooden_e.inventory_manager,x_1020730_wooden_e.inventory_user</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>badmantomiwa</sys_created_by>
         <sys_created_on>2023-10-21 14:15:44</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>42fda7cd474a3110d570fa8bd36d43f2</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Open</sys_name>
         <sys_overrides/>
         <sys_package display_value="Wooden Edge Inventory Mngt. App" source="x_1020730_wooden_e">8a5b2309474a3110d570fa8bd36d4326</sys_package>
@@ -32,7 +32,7 @@
         <sys_scope display_value="Wooden Edge Inventory Mngt. App">8a5b2309474a3110d570fa8bd36d4326</sys_scope>
         <sys_update_name>sys_app_module_42fda7cd474a3110d570fa8bd36d43f2</sys_update_name>
         <sys_updated_by>badmantomiwa</sys_updated_by>
-        <sys_updated_on>2023-10-21 16:53:52</sys_updated_on>
+        <sys_updated_on>2023-10-24 22:13:36</sys_updated_on>
         <timeline_page/>
         <title>Open</title>
         <uncancelable>false</uncancelable>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access/>
+        <description>Used to trigger an email to remind a user that an item has been delivered</description>
+        <event_name>x_1020730_wooden_e.delivered</event_name>
+        <fired_by>Scheduled Script Execution: Wooden Edge Item delivered</fired_by>
+        <queue/>
+        <suffix>delivered</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>badmantomiwa</sys_created_by>
+        <sys_created_on>2023-10-25 15:57:35</sys_created_on>
+        <sys_id>8a4b24e247c6b510d570fa8bd36d4360</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1020730_wooden_e.delivered</sys_name>
+        <sys_package display_value="Wooden Edge Inventory Mngt. App" source="x_1020730_wooden_e">8a5b2309474a3110d570fa8bd36d4326</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wooden Edge Inventory Mngt. App">8a5b2309474a3110d570fa8bd36d4326</sys_scope>
+        <sys_update_name>sysevent_register_8a4b24e247c6b510d570fa8bd36d4360</sys_update_name>
+        <sys_updated_by>badmantomiwa</sys_updated_by>
+        <sys_updated_on>2023-10-25 15:57:35</sys_updated_on>
+        <table>x_1020730_wooden_e_wooden_edge_inventory_mngt</table>
+    </sysevent_register>
+</record_update>

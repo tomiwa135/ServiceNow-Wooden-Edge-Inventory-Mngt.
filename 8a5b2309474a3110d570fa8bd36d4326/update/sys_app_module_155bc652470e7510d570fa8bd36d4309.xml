@@ -8,33 +8,33 @@
         <hint/>
         <homepage/>
         <image/>
-        <link_type>LIST</link_type>
+        <link_type>DIRECT</link_type>
         <map_page/>
-        <mobile_title>Closed</mobile_title>
+        <mobile_title>Properties</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_1020730_wooden_e_wooden_edge_inventory_mngt</name>
-        <order>600</order>
+        <name/>
+        <order>800</order>
         <override_menu_roles>false</override_menu_roles>
-        <query>active=false^EQ</query>
+        <query>system_properties_ui.do?sysparm_title=Wooden Edge Inventory App Sys Properties&amp;sysparm_category=Wooden Edge Studios Inventory App Sys</query>
         <report/>
-        <roles>x_1020730_wooden_e.admin,x_1020730_wooden_e.inventory_manager,x_1020730_wooden_e.inventory_user</roles>
+        <roles>x_1020730_wooden_e.admin,x_1020730_wooden_e.inventory_manager,x_1020730_wooden_e.inventory_user,admin</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>badmantomiwa</sys_created_by>
-        <sys_created_on>2023-10-21 14:15:44</sys_created_on>
+        <sys_created_on>2023-10-25 04:54:35</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>0efd2bcd474a3110d570fa8bd36d43e7</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Closed</sys_name>
+        <sys_id>155bc652470e7510d570fa8bd36d4309</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Properties</sys_name>
         <sys_overrides/>
         <sys_package display_value="Wooden Edge Inventory Mngt. App" source="x_1020730_wooden_e">8a5b2309474a3110d570fa8bd36d4326</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wooden Edge Inventory Mngt. App">8a5b2309474a3110d570fa8bd36d4326</sys_scope>
-        <sys_update_name>sys_app_module_0efd2bcd474a3110d570fa8bd36d43e7</sys_update_name>
+        <sys_update_name>sys_app_module_155bc652470e7510d570fa8bd36d4309</sys_update_name>
         <sys_updated_by>badmantomiwa</sys_updated_by>
-        <sys_updated_on>2023-10-24 22:13:16</sys_updated_on>
+        <sys_updated_on>2023-10-25 16:17:59</sys_updated_on>
         <timeline_page/>
-        <title>Closed</title>
+        <title>Properties</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

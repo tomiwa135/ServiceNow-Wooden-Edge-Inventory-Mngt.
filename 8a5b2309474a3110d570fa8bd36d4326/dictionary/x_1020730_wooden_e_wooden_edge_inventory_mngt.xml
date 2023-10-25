@@ -23,6 +23,7 @@
         <element attributes="edge_encryption_enabled=true" label="Last reorder date" max_length="40" name="u_last_reorder_date" type="glide_date_time"/>
         <element label="Minimum stock level" max_length="40" name="u_minimum_stock_level" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Other supplier" max_length="40" name="u_other_supplier" type="string"/>
+        <element default="$50.00" label="Price" mandatory="true" max_length="40" name="u_price" type="float"/>
         <element attributes="edge_encryption_enabled=true" label="Purchase date" mandatory="true" max_length="40" name="u_purchase_date" type="glide_date"/>
         <element label="Reorder quantity" max_length="40" name="u_reorder_quantity" type="integer"/>
         <element attributes="encode_utf8=false" label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>

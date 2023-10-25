@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_price" label="Price" language="en" table="x_1020730_wooden_e_wooden_edge_inventory_mngt">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_price</element>
+            <help/>
+            <hint/>
+            <label>Price</label>
+            <language>en</language>
+            <name>x_1020730_wooden_e_wooden_edge_inventory_mngt</name>
+            <plural>Prices</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>badmantomiwa</sys_created_by>
+            <sys_created_on>2023-10-25 15:06:43</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Price</sys_name>
+            <sys_package display_value="Wooden Edge Inventory Mngt. App" source="x_1020730_wooden_e">8a5b2309474a3110d570fa8bd36d4326</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Wooden Edge Inventory Mngt. App">8a5b2309474a3110d570fa8bd36d4326</sys_scope>
+            <sys_update_name>sys_documentation_x_1020730_wooden_e_wooden_edge_inventory_mngt_u_price_en</sys_update_name>
+            <sys_updated_by>badmantomiwa</sys_updated_by>
+            <sys_updated_on>2023-10-25 15:06:43</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
