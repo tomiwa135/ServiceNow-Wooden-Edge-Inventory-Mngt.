@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="Wooden Edge Studios Inventory App Sys">70b6021e47ca7510d570fa8bd36d43c7</category>
+        <order>100</order>
+        <property display_value="x_1020730_wooden_e.supplier.leadtime" name="x_1020730_wooden_e.supplier.leadtime">fdb7465e47ca7510d570fa8bd36d43c8</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>badmantomiwa</sys_created_by>
+        <sys_created_on>2023-10-25 04:04:27</sys_created_on>
+        <sys_id>3268829a47ca7510d570fa8bd36d4321</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1020730_wooden_e.supplier.leadtime.Wooden Edge Studios Inventory App Sys</sys_name>
+        <sys_package display_value="Wooden Edge Inventory Mngt. App" source="x_1020730_wooden_e">8a5b2309474a3110d570fa8bd36d4326</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wooden Edge Inventory Mngt. App">8a5b2309474a3110d570fa8bd36d4326</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_3268829a47ca7510d570fa8bd36d4321</sys_update_name>
+        <sys_updated_by>badmantomiwa</sys_updated_by>
+        <sys_updated_on>2023-10-25 04:04:27</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>

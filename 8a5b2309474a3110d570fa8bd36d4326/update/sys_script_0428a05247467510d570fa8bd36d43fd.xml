@@ -18,7 +18,7 @@
         <filter_condition/>
         <is_rest>false</is_rest>
         <message/>
-        <name>Wooden Edge Date of Purchase- Script Inc</name>
+        <name>Date of Purchase - Script Include Ex.</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -50,15 +50,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0428a05247467510d570fa8bd36d43fd</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Wooden Edge Date of Purchase- Script Inc</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Date of Purchase - Script Include Ex.</sys_name>
         <sys_overrides/>
         <sys_package display_value="Wooden Edge Inventory Mngt. App" source="x_1020730_wooden_e">8a5b2309474a3110d570fa8bd36d4326</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wooden Edge Inventory Mngt. App">8a5b2309474a3110d570fa8bd36d4326</sys_scope>
         <sys_update_name>sys_script_0428a05247467510d570fa8bd36d43fd</sys_update_name>
         <sys_updated_by>badmantomiwa</sys_updated_by>
-        <sys_updated_on>2023-10-24 21:37:24</sys_updated_on>
+        <sys_updated_on>2023-10-25 16:52:04</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

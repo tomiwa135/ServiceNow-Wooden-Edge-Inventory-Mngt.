@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>5</order>
+        <published_ref/>
+        <question display_value="Supplier">2999a1ea47cab510d570fa8bd36d43bf</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>badmantomiwa</sys_created_by>
+        <sys_created_on>2023-10-25 20:28:14</sys_created_on>
+        <sys_id>2d99a1ea47cab510d570fa8bd36d43f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Makita</sys_name>
+        <sys_package display_value="Wooden Edge Inventory Mngt. App" source="x_1020730_wooden_e">8a5b2309474a3110d570fa8bd36d4326</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wooden Edge Inventory Mngt. App">8a5b2309474a3110d570fa8bd36d4326</sys_scope>
+        <sys_update_name>question_choice_2d99a1ea47cab510d570fa8bd36d43f9</sys_update_name>
+        <sys_updated_by>badmantomiwa</sys_updated_by>
+        <sys_updated_on>2023-10-25 20:28:14</sys_updated_on>
+        <text>Makita</text>
+        <value>6</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=2d99a1ea47cab510d570fa8bd36d43f9"/>
+</record_update>
