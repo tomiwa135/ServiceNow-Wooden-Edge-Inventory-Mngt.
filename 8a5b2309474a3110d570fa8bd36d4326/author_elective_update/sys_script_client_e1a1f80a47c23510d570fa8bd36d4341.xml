@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_requesting_dept</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Change of field based on requested dept.</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (newValue == '') {
+        return;
+    }
+
+    var reqDept = g_form.getValue('u_requesting_dept');
+
+    if (newValue != 'Wooden Edge Studios Inventory Users') {
+        g_form.showFieldMsg('u_requesting_dept', "Please select the Group: Wooden Edge Studios Inventory Users.", "error");
+    } else {
+        g_form.hideFieldMsg('u_requesting_dept');
+    }
+
+    if (isLoading && !g_form.isNewRecord()) {
+        g_form.setValue('u_requesting_dept', reqDept);
+    }
+
+    //Type appropriate comment here, and begin script below
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>badmantomiwa</sys_created_by>
+        <sys_created_on>2023-10-24 03:16:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e1a1f80a47c23510d570fa8bd36d4341</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Change of field based on requested dept.</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Wooden Edge Inventory Mngt. App" source="x_1020730_wooden_e">8a5b2309474a3110d570fa8bd36d4326</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wooden Edge Inventory Mngt. App">8a5b2309474a3110d570fa8bd36d4326</sys_scope>
+        <sys_update_name>sys_script_client_e1a1f80a47c23510d570fa8bd36d4341</sys_update_name>
+        <sys_updated_by>badmantomiwa</sys_updated_by>
+        <sys_updated_on>2023-10-24 07:19:56</sys_updated_on>
+        <table>x_1020730_wooden_e_wooden_edge_inventory_mngt</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Wooden Edge Inventory Mngt. App">8a5b2309474a3110d570fa8bd36d4326</application>
+        <file_path/>
+        <instance_id>0b0de3d0dbd43bc00ae3ac44d4961932</instance_id>
+        <instance_name>dev75340</instance_name>
+        <name>sys_script_client_e1a1f80a47c23510d570fa8bd36d4341</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;u_requesting_dept&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Change of field based on requested dept.&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (newValue == '') {
+        return;
+    }
+
+    var reqDept = g_form.getValue('u_requesting_dept');
+
+    if (newValue != 'Wooden Edge Studios Inventory Users') {
+        g_form.showFieldMsg('u_requesting_dept', "Please select the Group: Wooden Edge Studios Inventory Users.", "error");
+    } else {
+        g_form.hideFieldMsg('u_requesting_dept');
+    }
+
+    if (isLoading &amp;&amp; !g_form.isNewRecord()) {
+        g_form.setValue('u_requesting_dept', reqDept);
+    }
+
+    //Type appropriate comment here, and begin script below
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;badmantomiwa&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-24 03:16:16&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;e1a1f80a47c23510d570fa8bd36d4341&lt;/sys_id&gt;&lt;sys_mod_count&gt;16&lt;/sys_mod_count&gt;&lt;sys_name&gt;Change of field based on requested dept.&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Wooden Edge Inventory Mngt. App" source="x_1020730_wooden_e"&gt;8a5b2309474a3110d570fa8bd36d4326&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Wooden Edge Inventory Mngt. App"&gt;8a5b2309474a3110d570fa8bd36d4326&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_e1a1f80a47c23510d570fa8bd36d4341&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;badmantomiwa&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-24 07:19:56&lt;/sys_updated_on&gt;&lt;table&gt;x_1020730_wooden_e_wooden_edge_inventory_mngt&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1886355084</payload_hash>
+        <record_name>Change of field based on requested dept.</record_name>
+        <reverted_from/>
+        <source>58503bcd474a3110d570fa8bd36d43ee</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>badmantomiwa</sys_created_by>
+        <sys_created_on>2023-10-24 07:19:56</sys_created_on>
+        <sys_id>d09be58a47c63510d570fa8bd36d43fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b608dedc60000001</sys_recorded_at>
+        <sys_updated_by>badmantomiwa</sys_updated_by>
+        <sys_updated_on>2023-10-24 07:19:56</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>989be58adbc635104754519dce8df3fd</update_guid>
+        <update_guid_history>989be58adbc635104754519dce8df3fd:-1886355084,6c6ba5cad1c635102eaf3161729e98cf:-335688718,47d96d4a55c63510601cb0f37a958d4d:-1146785921,9779298afac63510fa49df3cd97156e4:168609213,0d396d4ac3c635106bb5de76ee6d5595:521255715,7ac8e9860bc6351036c2ed6334af27bd:192610453,69a8a90a1ec63510a21074ffa73f3f36:1344801166,c5f7290aa4c635103957f0e87a9a6288:818396402,c77721c6f1c6351009dbd34609b493f8:-333314789,1b5621c63bc635107a97b67ea8fcbd2d:886159442,2b062d46b2c635103a7896446a06c1d5:-335889827,c1c5e186e7c63510ee71aa0b7b4b78fe:51380441,b33a78062d063510fa91384b75cf23dc:94163590,490a7846c80635101ed77e06a15334f6:1999942682,b629f0c25006351060a9c0e71b59ea8c:45975740,21f83406940635101da0a100f8581365:-544085232,43c3788ebac235103476a029997c0171:-194076333</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>badmantomiwa</sys_created_by>
+        <sys_created_on>2023-10-26 04:56:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>482a42ff76f64770af79f9569a41b840</sys_id>
+        <sys_metadata>e1a1f80a47c23510d570fa8bd36d4341</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Change of field based on requested dept.</sys_name>
+        <sys_package display_value="Wooden Edge Inventory Mngt. App" source="x_1020730_wooden_e">8a5b2309474a3110d570fa8bd36d4326</sys_package>
+        <sys_parent display_value="Wooden Edge Inventory Mngt.">fadda7cd474a3110d570fa8bd36d4335</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Wooden Edge Inventory Mngt. App">8a5b2309474a3110d570fa8bd36d4326</sys_scope>
+        <sys_scope_delete display_value="">21728bb4a8bc461ea4baa282151316c1</sys_scope_delete>
+        <sys_update_name>sys_script_client_e1a1f80a47c23510d570fa8bd36d4341</sys_update_name>
+        <sys_update_version display_value="sys_script_client_e1a1f80a47c23510d570fa8bd36d4341">d09be58a47c63510d570fa8bd36d43fe</sys_update_version>
+        <sys_updated_by>badmantomiwa</sys_updated_by>
+        <sys_updated_on>2023-10-26 04:56:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
