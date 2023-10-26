@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Inventory App Record Producer">8599a5aa47cab510d570fa8bd36d43b1</sc_cat_item>
+        <sc_category display_value="Materials Procurement">e4b8a1aa47cab510d570fa8bd36d4369</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>badmantomiwa</sys_created_by>
+        <sys_created_on>2023-10-25 20:28:12</sys_created_on>
+        <sys_id>c599a5aa47cab510d570fa8bd36d43b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Materials Procurement.</sys_name>
+        <sys_package display_value="Wooden Edge Inventory Mngt. App" source="x_1020730_wooden_e">8a5b2309474a3110d570fa8bd36d4326</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wooden Edge Inventory Mngt. App">8a5b2309474a3110d570fa8bd36d4326</sys_scope>
+        <sys_update_name>sc_cat_item_category_c599a5aa47cab510d570fa8bd36d43b3</sys_update_name>
+        <sys_updated_by>badmantomiwa</sys_updated_by>
+        <sys_updated_on>2023-10-25 20:28:12</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>
