@@ -13,7 +13,7 @@
         <script><![CDATA[function onSubmit() {
     //Type appropriate comment here, and begin script below
 
-    g_form.addFormMessage('The form submission alerts the CEO: Tomiwa Akinrotimi', 'info');
+    g_form.addInfoMessage('The form submission alerts the CEO: Tomiwa Akinrotimi');
 
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
@@ -22,7 +22,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6b24c84a47023510d570fa8bd36d437a</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Form Alert Client Script</sys_name>
         <sys_overrides/>
         <sys_package display_value="Wooden Edge Inventory Mngt. App" source="x_1020730_wooden_e">8a5b2309474a3110d570fa8bd36d4326</sys_package>
@@ -30,7 +30,7 @@
         <sys_scope display_value="Wooden Edge Inventory Mngt. App">8a5b2309474a3110d570fa8bd36d4326</sys_scope>
         <sys_update_name>sys_script_client_6b24c84a47023510d570fa8bd36d437a</sys_update_name>
         <sys_updated_by>badmantomiwa</sys_updated_by>
-        <sys_updated_on>2023-10-26 04:29:06</sys_updated_on>
+        <sys_updated_on>2023-10-26 05:05:06</sys_updated_on>
         <table>x_1020730_wooden_e_wooden_edge_inventory_mngt</table>
         <type>onSubmit</type>
         <ui_type>0</ui_type>
