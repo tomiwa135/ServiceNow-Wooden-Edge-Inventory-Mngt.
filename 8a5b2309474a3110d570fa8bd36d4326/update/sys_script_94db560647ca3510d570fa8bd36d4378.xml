@@ -6,7 +6,7 @@
         <action_insert>true</action_insert>
         <action_query>false</action_query>
         <action_update>true</action_update>
-        <active>false</active>
+        <active>true</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
@@ -19,7 +19,7 @@
         <is_rest>false</is_rest>
         <message/>
         <name>Validate reorder and received values</name>
-        <order>100</order>
+        <order>400</order>
         <priority>100</priority>
         <rest_method/>
         <rest_method_text/>
@@ -30,8 +30,11 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
 
     // Add your code here
-    if (current.u_last_reorder_date > current.u_last_received_date) {
-        gs.addErrorMessage('Received date must be later than last reordered date!');
+	var reorderDate = new GlideDateTime(current.u_last_reorder_date);
+	var receivedDate = new GlideDateTime(current.u_last_received_date);
+	
+    if (receivedDate.compareTo(reorderDate) == -1) {
+        gs.addErrorMessage('Received date cannot be before reordered date!');
         current.setAbortAction(true);
     }
 })(current, previous);]]></script>
@@ -41,15 +44,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>94db560647ca3510d570fa8bd36d4378</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Validate reorder and received values</sys_name>
         <sys_overrides/>
         <sys_package display_value="Wooden Edge Inventory Mngt. App" source="x_1020730_wooden_e">8a5b2309474a3110d570fa8bd36d4326</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wooden Edge Inventory Mngt. App">8a5b2309474a3110d570fa8bd36d4326</sys_scope>
         <sys_update_name>sys_script_94db560647ca3510d570fa8bd36d4378</sys_update_name>
-        <sys_updated_by>badmantomiwa</sys_updated_by>
-        <sys_updated_on>2023-10-25 16:51:12</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-21 20:34:52</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

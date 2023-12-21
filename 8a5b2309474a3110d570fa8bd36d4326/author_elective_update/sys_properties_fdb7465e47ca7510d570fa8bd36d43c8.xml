@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="DELETE">
+        <choices/>
+        <description>Number of hours before a supplier delivers replacement product for Wooden Edge Studios shop.</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_1020730_wooden_e.supplier.leadtime</name>
+        <read_roles>x_1020730_wooden_e.admin,x_1020730_wooden_e.inventory_manager,x_1020730_wooden_e.inventory_user,admin</read_roles>
+        <suffix>supplier.leadtime</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>badmantomiwa</sys_created_by>
+        <sys_created_on>2023-10-25 04:03:04</sys_created_on>
+        <sys_id>fdb7465e47ca7510d570fa8bd36d43c8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_1020730_wooden_e.supplier.leadtime</sys_name>
+        <sys_package display_value="Wooden Edge Inventory Mngt. App" source="x_1020730_wooden_e">8a5b2309474a3110d570fa8bd36d4326</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wooden Edge Inventory Mngt. App">8a5b2309474a3110d570fa8bd36d4326</sys_scope>
+        <sys_update_name>sys_properties_fdb7465e47ca7510d570fa8bd36d43c8</sys_update_name>
+        <sys_updated_by>badmantomiwa</sys_updated_by>
+        <sys_updated_on>2023-10-25 15:44:07</sys_updated_on>
+        <type>integer</type>
+        <value>48</value>
+        <write_roles>x_1020730_wooden_e.admin,x_1020730_wooden_e.inventory_manager,x_1020730_wooden_e.inventory_user,admin</write_roles>
+    </sys_properties>
+    <sys_translated_text action="DELETE" query="documentkey=fdb7465e47ca7510d570fa8bd36d43c8"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Wooden Edge Inventory Mngt. App">8a5b2309474a3110d570fa8bd36d4326</application>
+        <file_path/>
+        <instance_id>0b0de3d0dbd43bc00ae3ac44d4961932</instance_id>
+        <instance_name>dev75340</instance_name>
+        <name>sys_properties_fdb7465e47ca7510d570fa8bd36d43c8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Number of hours before a supplier delivers replacement product for Wooden Edge Studios shop.</description><ignore_cache>true</ignore_cache><is_private>false</is_private><name>x_1020730_wooden_e.supplier.leadtime</name><read_roles>x_1020730_wooden_e.admin,x_1020730_wooden_e.inventory_manager,x_1020730_wooden_e.inventory_user,admin</read_roles><suffix>supplier.leadtime</suffix><sys_class_name>sys_properties</sys_class_name><sys_created_by>badmantomiwa</sys_created_by><sys_created_on>2023-10-25 04:03:04</sys_created_on><sys_id>fdb7465e47ca7510d570fa8bd36d43c8</sys_id><sys_mod_count>2</sys_mod_count><sys_name>x_1020730_wooden_e.supplier.leadtime</sys_name><sys_package display_value="Wooden Edge Inventory Mngt. App" source="x_1020730_wooden_e">8a5b2309474a3110d570fa8bd36d4326</sys_package><sys_policy/><sys_scope display_value="Wooden Edge Inventory Mngt. App">8a5b2309474a3110d570fa8bd36d4326</sys_scope><sys_update_name>sys_properties_fdb7465e47ca7510d570fa8bd36d43c8</sys_update_name><sys_updated_by>badmantomiwa</sys_updated_by><sys_updated_on>2023-10-25 15:44:07</sys_updated_on><type>integer</type><value>48</value><write_roles>x_1020730_wooden_e.admin,x_1020730_wooden_e.inventory_manager,x_1020730_wooden_e.inventory_user,admin</write_roles></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=fdb7465e47ca7510d570fa8bd36d43c8"/></record_update>]]></payload>
+        <payload_hash>1803070494</payload_hash>
+        <record_name>x_1020730_wooden_e.supplier.leadtime</record_name>
+        <reverted_from/>
+        <source>58503bcd474a3110d570fa8bd36d43ee</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>badmantomiwa</sys_created_by>
+        <sys_created_on>2023-10-25 15:44:07</sys_created_on>
+        <sys_id>b7886cee4786b510d570fa8bd36d43df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b6781e40d0000001</sys_recorded_at>
+        <sys_updated_by>badmantomiwa</sys_updated_by>
+        <sys_updated_on>2023-10-25 15:44:07</sys_updated_on>
+        <type>System Property</type>
+        <update_guid>7f886cee2986b5101f1c5ea45aefe4de</update_guid>
+        <update_guid_history>7f886cee2986b5101f1c5ea45aefe4de:1803070494,c87860229cc6b510df623a6ce9d368bc:-1498737287,2a180e5ef0ca7510b60aaf8250e2dabf:-1539809473</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 22:21:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_properties">sys_properties</sys_db_object>
+        <sys_id>107b173b7c444bf282b0b59f62580181</sys_id>
+        <sys_metadata>fdb7465e47ca7510d570fa8bd36d43c8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1020730_wooden_e.supplier.leadtime</sys_name>
+        <sys_package display_value="Wooden Edge Inventory Mngt. App" source="x_1020730_wooden_e">8a5b2309474a3110d570fa8bd36d4326</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Wooden Edge Inventory Mngt. App">8a5b2309474a3110d570fa8bd36d4326</sys_scope>
+        <sys_scope_delete display_value="">21728bb4a8bc461ea4baa282151316c1</sys_scope_delete>
+        <sys_update_name>sys_properties_fdb7465e47ca7510d570fa8bd36d43c8</sys_update_name>
+        <sys_update_version display_value="sys_properties_fdb7465e47ca7510d570fa8bd36d43c8">b7886cee4786b510d570fa8bd36d43df</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-21 22:21:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

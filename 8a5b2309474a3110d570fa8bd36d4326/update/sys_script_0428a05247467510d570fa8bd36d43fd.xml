@@ -6,7 +6,7 @@
         <action_insert>true</action_insert>
         <action_query>false</action_query>
         <action_update>true</action_update>
-        <active>true</active>
+        <active>false</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
@@ -30,17 +30,17 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
 
     // Add your code here
-    var woodenedgeutils = new WoodenEdgeStudiosUtils();
-    var isPast = woodenedgeutils.isDatePast(current.u_date_of_purchase);
-	var today = woodenedgeutils.isDateToday(current.u_date_of_purchase);
+    var woodenedgeutils = new WoodenEdgeStudiosUtils(); //instansiates the Script Include 'WoodenEdgeStudiosUtils' 
+    var isPast = woodenedgeutils.isDatePast(current.u_date_of_purchase); //uses the isDatePast object of the Utils class
+	var today = woodenedgeutils.isDateToday(current.u_date_of_purchase); //uses the isDateToday object of the Utils class
 
     if (isPast == true) {
-        gs.addErrorMessage("Purchase date of cannot be in the past");
+        gs.addErrorMessage("Purchase date cannot be in the past");
         current.setAbortAction(true);
     }
 	
 	if (today == true) {
-		gs.addErrorMessage("Purchase date of cannot be today as it takes time to go through approvals");
+		gs.addErrorMessage("Purchase date cannot be today as it takes time to go through the required approvals approvals");
         current.setAbortAction(true);
 	}
 })(current, previous);]]></script>
@@ -50,15 +50,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0428a05247467510d570fa8bd36d43fd</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Date of Purchase - Script Include Ex.</sys_name>
         <sys_overrides/>
         <sys_package display_value="Wooden Edge Inventory Mngt. App" source="x_1020730_wooden_e">8a5b2309474a3110d570fa8bd36d4326</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wooden Edge Inventory Mngt. App">8a5b2309474a3110d570fa8bd36d4326</sys_scope>
         <sys_update_name>sys_script_0428a05247467510d570fa8bd36d43fd</sys_update_name>
-        <sys_updated_by>badmantomiwa</sys_updated_by>
-        <sys_updated_on>2023-10-25 16:52:04</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-21 20:54:35</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

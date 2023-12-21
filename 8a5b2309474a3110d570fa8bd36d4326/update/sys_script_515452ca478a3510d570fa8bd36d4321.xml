@@ -6,7 +6,7 @@
         <action_insert>true</action_insert>
         <action_query>false</action_query>
         <action_update>true</action_update>
-        <active>false</active>
+        <active>true</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
@@ -19,7 +19,7 @@
         <is_rest>false</is_rest>
         <message><![CDATA[<p><span style="color: #e03e2d;">Date of purchase cannot be in the past!</span></p>]]></message>
         <name>Date of purchase not in the past/today</name>
-        <order>100</order>
+        <order>200</order>
         <priority>100</priority>
         <rest_method/>
         <rest_method_text/>
@@ -31,15 +31,16 @@
 
     // Add your code here
     var rightnow = new GlideDateTime();
-
     var purchaseDate = new GlideDateTime(current.u_date_of_purchase);
 
     if (purchaseDate.before(rightnow)) {
-        gs.addErrorMessage("Purchase date of " + purchaseDate + " cannot be in the past");
+        gs.addErrorMessage("'Date of Purchase' field " + purchaseDate + " cannot be in the past");
         current.setAbortAction(true);
-    }
+    } //if the 'Date of purchase' is before today's date, log an error message to the console
+   
+	/*The setAbortAction() method is part of the GlideRecord API. Pass true to the method to abort the next database operation for a record. When you test the script, you will see that ServiceNow writes an error message to the form when the database operation is aborted.*/
 
-    var today = rightnow.getLocalDate();
+    var today = rightnow.getLocalDate(); //.getLocalDate: Gets the date stored by the GlideDateTime object, and current user's time zone. 
     var isToday = purchaseDate.getLocalDate();
 
     if (today.compareTo(istoday) == 0) {
@@ -54,15 +55,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>515452ca478a3510d570fa8bd36d4321</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>Date of purchase not in the past/today</sys_name>
         <sys_overrides/>
         <sys_package display_value="Wooden Edge Inventory Mngt. App" source="x_1020730_wooden_e">8a5b2309474a3110d570fa8bd36d4326</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wooden Edge Inventory Mngt. App">8a5b2309474a3110d570fa8bd36d4326</sys_scope>
         <sys_update_name>sys_script_515452ca478a3510d570fa8bd36d4321</sys_update_name>
-        <sys_updated_by>badmantomiwa</sys_updated_by>
-        <sys_updated_on>2023-10-25 16:52:17</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-21 20:11:03</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

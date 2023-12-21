@@ -6,7 +6,7 @@
         <action_insert>true</action_insert>
         <action_query>false</action_query>
         <action_update>true</action_update>
-        <active>false</active>
+        <active>true</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
@@ -18,8 +18,8 @@
         <filter_condition/>
         <is_rest>false</is_rest>
         <message/>
-        <name>Email Address Syntax validate</name>
-        <order>100</order>
+        <name>validateEmailAddress Syntax</name>
+        <order>300</order>
         <priority>100</priority>
         <rest_method/>
         <rest_method_text/>
@@ -30,7 +30,7 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
 	// Add your code here
-	var isEmail = validateEmailAddress(current.u_requested_for_email);
+	var isEmail = validateEmailAddress(current.u_requested_for_email); //instantiates a validateEmailAddress object - 'isEmail' from the on demand Script Include - validateEmailAddress
 	
 	if(isEmail == false){
 		gs.addErrorMessage(current.u_requested_for_email + " is not a valid email address. You must provide a valid email address");
@@ -43,15 +43,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8744989a47c27510d570fa8bd36d436e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Email Address Syntax validate</sys_name>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>validateEmailAddress Syntax</sys_name>
         <sys_overrides/>
         <sys_package display_value="Wooden Edge Inventory Mngt. App" source="x_1020730_wooden_e">8a5b2309474a3110d570fa8bd36d4326</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wooden Edge Inventory Mngt. App">8a5b2309474a3110d570fa8bd36d4326</sys_scope>
         <sys_update_name>sys_script_8744989a47c27510d570fa8bd36d436e</sys_update_name>
-        <sys_updated_by>badmantomiwa</sys_updated_by>
-        <sys_updated_on>2023-10-25 03:50:38</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-21 21:08:35</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
