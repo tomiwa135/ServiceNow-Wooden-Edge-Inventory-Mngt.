@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category">
+    <sys_properties_category action="DELETE">
+        <name>Wooden Edge Studios Inventory App Sys</name>
+        <sys_class_name>sys_properties_category</sys_class_name>
+        <sys_created_by>badmantomiwa</sys_created_by>
+        <sys_created_on>2023-10-25 03:58:04</sys_created_on>
+        <sys_id>70b6021e47ca7510d570fa8bd36d43c7</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Wooden Edge Studios Inventory App Sys</sys_name>
+        <sys_package display_value="Wooden Edge Inventory Mngt. App" source="x_1020730_wooden_e">8a5b2309474a3110d570fa8bd36d4326</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wooden Edge Inventory Mngt. App">8a5b2309474a3110d570fa8bd36d4326</sys_scope>
+        <sys_update_name>sys_properties_category_70b6021e47ca7510d570fa8bd36d43c7</sys_update_name>
+        <sys_updated_by>badmantomiwa</sys_updated_by>
+        <sys_updated_on>2023-10-25 16:17:23</sys_updated_on>
+        <title><![CDATA[<p>Wooden Edge Inventory App Sys Properties</p>]]></title>
+    </sys_properties_category>
+    <sys_translated_text action="DELETE" query="documentkey=70b6021e47ca7510d570fa8bd36d43c7"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Wooden Edge Inventory Mngt. App">8a5b2309474a3110d570fa8bd36d4326</application>
+        <file_path/>
+        <instance_id>0b0de3d0dbd43bc00ae3ac44d4961932</instance_id>
+        <instance_name>dev75340</instance_name>
+        <name>sys_properties_category_70b6021e47ca7510d570fa8bd36d43c7</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_properties_category"&gt;&lt;sys_properties_category action="INSERT_OR_UPDATE"&gt;&lt;name&gt;Wooden Edge Studios Inventory App Sys&lt;/name&gt;&lt;sys_class_name&gt;sys_properties_category&lt;/sys_class_name&gt;&lt;sys_created_by&gt;badmantomiwa&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-25 03:58:04&lt;/sys_created_on&gt;&lt;sys_id&gt;70b6021e47ca7510d570fa8bd36d43c7&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Wooden Edge Studios Inventory App Sys&lt;/sys_name&gt;&lt;sys_package display_value="Wooden Edge Inventory Mngt. App" source="x_1020730_wooden_e"&gt;8a5b2309474a3110d570fa8bd36d4326&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Wooden Edge Inventory Mngt. App"&gt;8a5b2309474a3110d570fa8bd36d4326&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_properties_category_70b6021e47ca7510d570fa8bd36d43c7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;badmantomiwa&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-25 16:17:23&lt;/sys_updated_on&gt;&lt;title&gt;&lt;![CDATA[&lt;p&gt;Wooden Edge Inventory App Sys Properties&lt;/p&gt;]]&gt;&lt;/title&gt;&lt;/sys_properties_category&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=70b6021e47ca7510d570fa8bd36d43c7"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1556743858</payload_hash>
+        <record_name>Wooden Edge Studios Inventory App Sys</record_name>
+        <reverted_from/>
+        <source>58503bcd474a3110d570fa8bd36d43ee</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>badmantomiwa</sys_created_by>
+        <sys_created_on>2023-10-25 16:17:23</sys_created_on>
+        <sys_id>4320bca647c6b510d570fa8bd36d43a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b67a0590e0000001</sys_recorded_at>
+        <sys_updated_by>badmantomiwa</sys_updated_by>
+        <sys_updated_on>2023-10-25 16:17:23</sys_updated_on>
+        <type>System Property Category</type>
+        <update_guid>0b20bca64dc6b510680350942f9390a4</update_guid>
+        <update_guid_history>0b20bca64dc6b510680350942f9390a4:1556743858,40a7206a9f86b510aa6cf1efade52ddd:-493834019,68d4de9a3a0e7510f763e854823adea9:1513027497,95f64ada65ca75108c999b9d5dd2c956:1190035505</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 22:21:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_properties_category">sys_properties_category</sys_db_object>
+        <sys_id>0c8c62800d30428f849f66d6deced8c9</sys_id>
+        <sys_metadata>70b6021e47ca7510d570fa8bd36d43c7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Wooden Edge Studios Inventory App Sys</sys_name>
+        <sys_package display_value="Wooden Edge Inventory Mngt. App" source="x_1020730_wooden_e">8a5b2309474a3110d570fa8bd36d4326</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Wooden Edge Inventory Mngt. App">8a5b2309474a3110d570fa8bd36d4326</sys_scope>
+        <sys_scope_delete display_value="">21728bb4a8bc461ea4baa282151316c1</sys_scope_delete>
+        <sys_update_name>sys_properties_category_70b6021e47ca7510d570fa8bd36d43c7</sys_update_name>
+        <sys_update_version display_value="sys_properties_category_70b6021e47ca7510d570fa8bd36d43c7">4320bca647c6b510d570fa8bd36d43a5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-21 22:21:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
